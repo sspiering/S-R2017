@@ -15,6 +15,26 @@ textarea {
     color: #222;
 }
 
+button {
+    border-radius: 7px;
+    background-color: black;
+    border: none;
+    padding: 10px;
+}
+
+button a {
+    color: lightgrey;
+}
+
+button a:hover {
+    background-color: lightgray;
+    color: black;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+}
+
+
 body {
     font-size: 1em;
     line-height: 1.4;
@@ -30,7 +50,7 @@ body {
     text-shadow: none;
 }
 a {
-    color: #b1bf92;
+    color: #a8e2ff;
     text-decoration: none;
 }
 hr {
@@ -89,7 +109,7 @@ body {
 }
 
 #gmap iframe {
-    width: 93%;
+    width: 90%;
     height: 200px;
 
     border: 5px solid #090909;
@@ -104,13 +124,13 @@ body {
 #gmap small a,
 #gmap small a:active,
 #gmap small a:visited {
-    color: #b1bf92;
+    color: #a8e2ff;
     text-decoration: none;
     outline: none;
 }
 
 #gmap small a:hover {
-    color: #b1bf92;
+    color: #a8e2ff;
     text-decoration: underline;
     outline: none;
 }
@@ -440,7 +460,6 @@ section h2 {
     #gmap iframe {
         height: 400px;
     }
-
 
 
 /* ========================
