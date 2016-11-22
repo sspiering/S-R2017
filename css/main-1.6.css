@@ -120,15 +120,8 @@ body {
    =================== */
 
 .header-container {
-  
-  position: fixed;
-  top: 2px;
-  bottom: 20px;
-  
-/*
     position: absolute;
     bottom: 20px;
-*/
     width: 100%;
     background: black;
     z-index: 10;
